@@ -68,7 +68,7 @@ For example, in order to add a float Data named `myparam` to our
 component, we will add this member to `MyComponent`:
 
 ``` cpp
-Data<float> m_myparam;
+Data<float> d_myparam;
 ```
 
 Then we must register and initialise it in **each** Constructor of
